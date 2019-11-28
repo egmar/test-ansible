@@ -1,0 +1,6 @@
+- hosts: all
+  order: sorted
+  gather_facts: True
+  tasks:
+    - name: Retrieve Hostname
+      command: hostname
