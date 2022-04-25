@@ -2,8 +2,6 @@
   order: sorted
   gather_facts: True
   tasks:
-    - name: Retrieve Hostname
-      command: hostname
     - name: Pause for 5 minutes to build app cache
       pause:
         minutes: 5
