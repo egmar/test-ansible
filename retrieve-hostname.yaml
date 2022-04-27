@@ -1,4 +1,5 @@
 - hosts: all
+  connection: local
   order: sorted
   gather_facts: True
   tasks:
